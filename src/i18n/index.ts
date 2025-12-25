@@ -34,7 +34,7 @@ const resources = {
 
       // Dashboard
       dashboard: 'Dashboard',
-      staffManagement: 'Staff My Page',
+      staffManagement: 'Staff my page',
       table: 'Table',
       form: 'Form',
       dynamicForm: 'Dynamic Form',

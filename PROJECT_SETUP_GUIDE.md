@@ -18,15 +18,30 @@ Purpose: Ensure all requirements are clear and documented before development
    |----|------------|-----------------|--------|--------------|
    | A001 | Users login with email only | High | Pending | - |
    | A002 | Max 10k records per table | Medium | Pending | - |
-   | A003 | No IE support needed | Low | Confirmed | PM |
-   | A004 | English and Japanese only | Low | Confirmed | PM |
+   | A003 | English and Japanese only | Low | Confirmed | PM |
    
    Unclear Points Document:
-   | ID | Question | Priority | Asked To | Status | Answer |
-   |----|----------|----------|----------|--------|--------|
-   | Q001 | Session timeout duration? | High | Security | Answered | 30 mins |
-   | Q002 | Should form auto-save? | Medium | UX | Open | - |
-   | Q003 | Export format (CSV/Excel)? | Medium | PM | Answered | Both |
+   | ID | Category | Question | Priority | Asked To | Status | Answer |
+   |----|----------|----------|----------|----------|--------|--------|
+   | Q001 | Auth | Session timeout duration? | High | Security | Answered | 30 mins |
+   | Q002 | Auth | Login page: Staff vs Staffing Agency - what's the difference? | High | PM/BA | Open | - |
+   | Q003 | Auth | Do Staff and Staffing Agency have different roles/permissions? | High | PM/BA | Open | - |
+   | Q004 | Auth | OTP expires in 120s - do we need a resend button? - do we need to have cancel button ?| Medium | UX/PM | Open | - |
+   | Q005 | Auth | What happens if OTP email is not received by user? | Medium | PM | Open | - |
+   | Q006 | Table | Row actions (edit, delete, etc.) - complete list of actions needed? | High | PM/BA | Open | - |
+   | Q007 | Table | Row actions: What is the detailed logic for each action? | High | BA | Open | - |
+   | Q008 | Table | Selected row status - what is the logic when user selects rows? | Medium | UX/BA | Open | - |
+   | Q009 | Table | Does selecting a row and clicking edit open edit mode for that row? | Medium | UX | Open | - |
+   | Q010 | Table | Can users hide/show columns? | Medium | UX | Open | - |
+   | Q011 | Table | Can users select all columns (bulk selection)? | Medium | UX | Open | - |
+   | Q012 | Form | Detailed logic for form submission and validation? | High | BA | Open | - |
+   | Q013 | Form | Design shows child and parent form - what's the relationship? | High | UX/BA | Open | - |
+   | Q014 | Form | Is the form layout fixed to 3 columns or configurable? | Medium | UX | Open | - |
+   | Q015 | Form | How many form types (Resume, Employment, Leave, HealthCheck)? | High | BA | Open | - |
+   | Q016 | Form | Does each form type have a different format/schema? | High | BA | Open | - |
+   | Q017 | Form | How to store different form schemas with BE (JSON schema)? | High | BE/BA | Open | - |
+   | Q018 | General | Should form auto-save? | Medium | UX | Open | - |
+   | Q019 | General | Export format (CSV/Excel)? | Medium | PM | Answered | Both |
 
 3. CLARIFICATION MEETINGS (1-2 meetings recommended)
    
